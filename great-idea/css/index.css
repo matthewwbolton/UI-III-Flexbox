@@ -170,6 +170,71 @@ footer {
 	width: 200px;
 }
 
+/*Begin Styles for Services.html page*/
 
+#services-header {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.header-img {
+	text-align: center;
+}
 
+.header-content h1 {
+	text-align: left;
+}
+
+#section-one {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.row-1{
+	display: flex;
+}
+
+.row-2 {
+	display: flex;
+}
+
+.row-3 {
+	display: flex;
+}
+.design {
+	height: 200px;
+	width: 400px;
+	border: 1px solid black;
+}
+
+.ux {
+	height: 200px;
+	width: 400px;
+	border: 1px solid black;	
+}
+
+.marketing {
+	height: 200px;
+	width: 400px;
+	border: 1px solid black;
+}
+
+.development {
+	height: 200px;
+	width: 400px;
+	border: 1px solid black;
+}
+
+.ios {
+	height: 200px;
+	width: 400px;
+	border: 1px solid black;
+}
+
+.android {
+	height: 200px;
+	width: 400px;
+	border: 1px solid black;
+}
