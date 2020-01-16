@@ -49,7 +49,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
@@ -63,4 +63,102 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+nav {
+	display: flex;
+}
+
+
+.links {
+	display: flex;
+	width: 70%;
+	color: grey;
+	justify-content: space-evenly;
+}
+
+.links a {
+}
+
+.logo-nav {
+	width: 15%;
+	text-align: center;
+}
+
+header {
+	display: flex;
+}
+
+.header-left {
+	width: 50%;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-header {
+	width: 50%;
+	display: flex;
+    justify-content: center;
+}
+
+h1 {
+	font-size: 75px;
+	text-align: center;
+}
+
+button {
+	font-size: 25px;
+    padding: 5px 25px;
+    display: list-item;
+}
+
+.top-content{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.features{
+	width: 50%;
+    padding: 12%;
+}
+
+.about{
+	width: 50%;
+    padding: 12%;
+}
+
+.middle-img {
+	display: flex;
+    justify-content: flex-end;
+	width: 80%;
+}
+
+.bottom-content{
+	width: 100%
+	display: flex;
+    justify-content: center;
+}
+
+.services{
+	width: 25%;
+	padding: 4%;
+}
+
+.product {
+	width: 25%;
+	padding: 4%;
+}
+
+.vision {
+	width: 25%;
+	padding: 4%;
+}
+
+.contact-div {
+    width: 140px;
+}
+
+footer{
+	text-align: center;
+}
+
