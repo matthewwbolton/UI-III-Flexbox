@@ -85,6 +85,7 @@ nav {
 
 header {
 	display: flex;
+	margin-top: 2%;
 }
 
 .header-left {
@@ -112,19 +113,18 @@ button {
 }
 
 .top-content{
-	width: 100%;
 	display: flex;
 	justify-content: center;
 }
 
 .features{
-	width: 50%;
-    padding: 12%;
+	width: 35%;
+	margin: 2%;
 }
 
 .about{
-	width: 50%;
-    padding: 12%;
+	width: 35%;
+	margin: 2%;
 }
 
 .middle-img {
@@ -133,10 +133,9 @@ button {
 	width: 80%;
 }
 
-.bottom-content{
-	width: 100%
+.bottom-content {
 	display: flex;
-    justify-content: center;
+	justify-content: center;
 }
 
 .services{
@@ -155,10 +154,22 @@ button {
 }
 
 .contact-div {
-    width: 140px;
+	width: 140px;
+	margin-left: 16%;
+	
 }
 
-footer{
-	text-align: center;
+footer {
+	display: flex;
+	justify-content: center;
+	margin: 5%;
 }
+
+.footer {
+	height: 100px;
+	width: 200px;
+}
+
+
+
 
