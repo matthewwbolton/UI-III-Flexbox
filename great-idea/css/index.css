@@ -212,7 +212,7 @@ footer {
 }
 .design {
 	height: 200px;
-	width: 400px;
+	width: 450px;
 	border: 1px solid black;
 	background-color: lightgray;
 	margin: 2%;
@@ -225,7 +225,7 @@ footer {
 
 .ux {
 	height: 200px;
-	width: 400px;
+	width: 450px;
 	border: 1px solid black;
 	background-color: lightgray;
 	margin: 2%;	
@@ -238,7 +238,7 @@ footer {
 
 .marketing {
 	height: 200px;
-	width: 400px;
+	width: 450px;
 	border: 1px solid black;
 	background-color: lightgray;
 	margin: 2%;
@@ -251,7 +251,7 @@ footer {
 
 .development {
 	height: 200px;
-	width: 400px;
+	width: 450px;
 	border: 1px solid black;
 	background-color: lightgray;
 	margin: 2%;
@@ -264,7 +264,7 @@ footer {
 
 .ios {
 	height: 200px;
-	width: 400px;
+	width: 450px;
 	border: 1px solid black;
 	background-color: lightgray;
 	margin: 2%;
@@ -277,7 +277,7 @@ footer {
 
 .android {
 	height: 200px;
-	width: 400px;
+	width: 450px;
 	border: 1px solid black;
 	background-color: lightgray;
 	margin: 2%;
@@ -295,13 +295,13 @@ footer {
 }
 
 .left-box {
-	width: 400px;
-    height: 200px;
+	width: 450px;
+	height: 200px;
 }
 
 .right-box{
-	width: 400px;
-    height: 200px;
+	width: 450px;
+	height: 200px;
 }
 
 .right-box img {
@@ -314,4 +314,45 @@ ul {
 	width: 150px;
     height: 100px;
     padding: 5%;
+}
+
+/* Begin Styling for Product.HTML */
+
+#product-section-one {
+	display: flex;
+	flex-wrap: wrap;
+}
+.box{
+	border: 2px solid black;
+	margin: 3%;
+}
+
+.box-one {
+	height: 200px;
+	width: 400px;
+}
+
+.box-two {
+	height: 200px;
+	width: 400px;
+}
+
+.box-three {
+	height: 200px;
+	width: 400px;
+}
+
+.box-four {
+	height: 200px;
+	width: 400px;
+}
+
+.box-five {
+	height: 200px;
+	width: 400px;
+}
+
+.box-six {
+	height: 200px;
+	width: 400px;
 }
