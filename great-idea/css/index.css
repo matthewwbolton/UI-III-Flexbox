@@ -163,7 +163,7 @@ button {
 footer {
 	display: flex;
 	justify-content: center;
-	margin: 5%;
+	margin: 15%;
 }
 
 .footer {
@@ -308,3 +308,10 @@ footer {
 	max-width: -webkit-fill-available;
 }
 
+
+ul {
+	list-style: initial;
+	width: 150px;
+    height: 100px;
+    padding: 5%;
+}
