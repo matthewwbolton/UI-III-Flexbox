@@ -318,13 +318,14 @@ ul {
 
 /* Begin Styling for Product.HTML */
 
-#product-section-one {
+.product-section-one {
 	display: flex;
-	flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 .box{
 	border: 2px solid black;
 	margin: 3%;
+	background-color: lightgray;
 }
 
 .box-one {
